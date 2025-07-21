@@ -8,7 +8,7 @@ from datetime import datetime
 import seaborn as sns
 sns.set(style="whitegrid")
 
-BASE_DIR = "shared_logs"
+BASE_DIR = "data"
 
 def load_json_logs(log_dir):
     logs = []
