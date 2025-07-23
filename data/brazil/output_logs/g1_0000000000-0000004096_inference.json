@@ -1,0 +1,6 @@
+{
+  "status": "success",
+  "output_mask_path": "data/brazil/output/g1_0000000000-0000004096.tif",
+  "inference_time_seconds": 0.3065,
+  "image_id_from_log": "g1_0000000000-0000004096.tif"
+}

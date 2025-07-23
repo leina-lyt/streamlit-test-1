@@ -6,7 +6,6 @@ import streamlit as st
 from streamlit_folium import folium_static
 from datetime import datetime
 import seaborn as sns
-sns.set(style="whitegrid")
 
 BASE_DIR = "data"
 
