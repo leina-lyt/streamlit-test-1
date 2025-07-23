@@ -80,7 +80,7 @@ def plot_inference_time(df, country):
     df_sorted = df.sort_values("timestamp")
 
     fig, ax = plt.subplots(figsize=(10, 5))
-    ax.bar(df_sorted["image_id"].str[:6], df_sorted["inference_time_seconds"], color="teal")
+    ax.bar(df_sorted["image_id"], df_sorted["inference_time_seconds"], color="teal")
     ax.set_xlabel("Image ID (truncated)")
     ax.set_ylabel("Inference Time (s)")
     ax.set_title(f"Inference Time per Image – {country}")
